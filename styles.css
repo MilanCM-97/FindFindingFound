@@ -1,0 +1,1792 @@
+/* If the screen size is 425px wide or less */
+@media screen and (max-width: 425px) {   
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        padding-left: 20px;
+    }
+
+    .brand-img {
+        height: 70px;
+    }
+    
+    .bg-light {
+        background-color: white !important;
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+    }
+    
+    .tab {
+        overflow: hidden;
+        background-color: #3cb6fc;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .tablinks {
+        font-size: 12px !important;
+        font-family: "Baloo 2";
+    }
+
+    .bar2 {
+        display: flex;
+       justify-content: center;
+    }
+    
+    .tab button {
+        color: white;
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+    
+    .tab button:hover {
+        background-color: rgb(255, 142, 49);
+    }
+    
+    .tab button.active {
+        background-color: rgb(255, 142, 49);
+    }
+    
+    .items {
+        font-weight: 500;
+        font-size: medium;
+        padding-right: 50px;
+        text-indent: 20px;
+    }
+    
+    .parallax {
+        background-image: url("assets/background.jpg");
+        background-attachment: fixed;
+        min-height: 600px;
+        background-position: center;
+        background-size: auto;
+    }
+    
+    .nav-link {
+        color: rgb(0, 174, 255) !important;
+        font-family: "Baloo 2";
+        font-size: 18px;
+    }
+    
+    .text-container {
+        margin-left: 550px;
+        margin-top: 180px;
+        width: 50%;
+    }
+    
+    .text-01 {
+        color: white;
+    }
+    
+    .text-02 {
+        color: white;
+        font-weight: 500;
+        background-color: rgb(255, 142, 49);
+        width: 100%;
+    }
+    
+    .text-03 {
+        color: white;
+        font-weight: 300;
+        font-family: 'Baloo 2';
+    }
+    
+    .section-2 {
+        background-color: #3cb6fc;
+    }
+    
+    .content {
+        position: absolute;
+        color: #f1f1f1;
+        top: 300px;
+        left: 5px;
+        right: 5px;
+        text-align: center;
+    }
+    
+    .section-1 {
+        background-color: #3cb6fc;
+        font-family: "Baloo 2";
+        font-size: 14px;
+        font-weight: 400;
+        height: 230px;
+        padding-top: 30px;
+    }
+    
+    .row-style {
+        text-align: center;
+        color: white;
+        width: 100%;
+        padding-left: 20px;
+    }
+    
+    .column-1 {
+        text-align: end;
+        padding-right: 06px;
+    }
+    
+    .column-2 {
+        text-align: start;
+        padding-left: 06px;
+    }
+    
+    .btn {
+        background-color: #ddd;
+        border: none;
+        color: black;
+        padding: 8px 16px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: "Baloo 2";
+        margin: 10px 2px;
+        width: 100px;
+        transition: 0.4s;
+        border-radius: 4px;
+    }
+    
+    .btn:hover {
+        background-color: rgb(255, 142, 49);
+        color: white;
+    }
+    
+    .section-3 {
+        background-color: rgb(255, 142, 49);
+        font-family: "Baloo 2";
+        font-size: 12px;
+        font-weight: 400;
+        height: 270px;
+        padding-top: 30px;
+    }
+    
+    .section-3-btn {
+        background-color: #ddd;
+        border: none;
+        color: black;
+        padding: 8px 16px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: "Baloo 2";
+        margin: 10px 2px;
+        width: 150px;
+        transition: 0.4s;
+        border-radius: 4px;
+    }
+    
+    .section-3-btn:hover {
+        background-color: #3cb6fc;
+        color: white;
+    }
+    
+    .section-2 {
+        background-color: #ffffff;
+        height: 1300px;
+        padding-top: 50px;
+        justify-content: center;
+    }
+    
+    .row-section-2 {
+        width: 800px;
+        text-align: center;
+    }
+    
+    .card {
+        border-width: 0px;
+        box-shadow: 0px 0px 6px 4px rgba(46, 46, 46, 0.1);
+        transition: 0.1s;
+    }
+    
+    .card:hover {
+        border-width: 2px;
+        border-color: #3cb6fc;
+    }
+    
+    .products {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .title {
+        color: rgb(255, 142, 49);
+        padding-left: 15px;
+        padding-bottom: 40px;
+    }
+    
+    .status {
+        position: absolute;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 18px;
+        padding: 0px 5px 0px 5px;
+        background-color: rgb(255, 142, 49);
+        width: fit-content;
+        color: white;
+        font-size: 12px;
+    }
+    
+    .status-sale {
+        position: absolute;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 18px;
+        padding: 0px 5px 0px 5px;
+        background-color: #3cb6fc;
+        width: fit-content;
+        color: white;
+        font-size: 12px;
+    }
+    
+    .card-title {
+        font-size: 20px;
+        color: rgb(255, 152, 68);
+        font-weight: 400;
+        padding-top: 5px;
+    }
+    
+    .card-text {
+        color: rgb(29, 29, 29);
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    
+    .off-price {
+        color: rgb(255, 142, 49);
+        padding-left: 10px;
+    }
+    
+    .image-style {
+        height: 80px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .table {
+        margin-top: 70px;
+        width: 380px;
+    }
+    
+    .people {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .job {
+        font-weight: 500;
+        font-size: 14px;
+        padding-top: 10pt !important;
+    }
+    
+    .td {
+        width: 50px;
+    }
+    
+    .posted {
+        font-weight: 400;
+        font-size: 9px;
+        color: rgb(145, 145, 145);
+    }
+    
+    .price {
+        font-weight: 500;
+        font-size: 10px;
+    }
+    
+    .td2 {
+        width: 140px;
+    }
+    
+    .td3 {
+        width: 50px;
+        text-align: center;
+    }
+    
+    .td4 {
+        width: 50px;
+    }
+    
+    .btn-bid {
+        background-color: rgb(255, 142, 49);
+        border: none;
+        color: rgb(255, 255, 255);
+        padding: 8px 8px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Baloo 2";
+        margin: 5px 2px;
+        width: 65px;
+        transition: 0.4s;
+        border-radius: 4px;
+    }
+    
+    .btn-bid:hover {
+        background-color: rgb(255, 183, 124);
+        color: rgb(255, 255, 255);
+    }
+    
+    .section-4 {
+        background-color: #ffffff;
+        height: 350px;
+        padding-top: 50px;
+        justify-content: center;
+    }
+    
+    .howitworks {
+        height: 85px;
+    }
+    
+    .font {
+        font-size: 9px;
+        font-weight: 500;
+    }
+    
+    .footer {
+        background-color: #202020;
+        height: 230px;
+        justify-content: center;
+    }
+    
+    .row-footer {
+        color: white;
+        width: 100%;
+        padding-top: 10px;
+    }
+    
+    .FindFindingFound {
+        height: 40px;
+    }
+    
+    .about {
+        font-size: 10px;
+        font-weight: 300;
+        margin-left: 10px;
+        font-family: "Baloo 2";
+        line-height: 12px;
+    }
+    
+    .footer-text {
+        padding-top: 10px;
+        color: #3cb6fc;
+        font-family: "Baloo 2";
+        padding-bottom: 2px;
+        font-size: 14px;
+    }
+    
+    .footer-sub-text {
+        font-size: 10px;
+        font-weight: 400;
+        font-family: "Baloo 2";
+    }
+    
+    .fa {
+        padding: 10px;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 6px;
+        border-radius: 50%;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    
+    .fa-youtube {
+        background: #bb0000;
+        color: white;
+    }
+    
+    .fa-pinterest {
+        background: #cb2027;
+        color: white;
+    }
+    
+    .c-1 {
+        width: 190px;
+        padding-left: 10px;
+    }
+    
+    .c-2 {
+        width: 90px;
+        height: 50px;
+    }
+
+    .c-3 {
+        width: 200px;
+    }
+
+    .row {
+        width: 100%;
+    }
+}
+
+/* Normal View */
+@media screen and (min-width: 426px) {   
+
+.navbar-brand {
+    padding-left: 40px;
+}
+
+.navbar {
+    height: 90px;
+}
+
+.brand-img {
+    height: 80px;
+}
+
+.bar {
+    justify-content: flex-end;
+}
+
+.bg-light {
+    background-color: white !important;
+}
+
+.tab {
+    overflow: hidden;
+    background-color: #3cb6fc;
+}
+
+.tab button {
+    color: white;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: rgb(255, 142, 49);
+}
+
+.tab button.active {
+    background-color: rgb(255, 142, 49);
+}
+
+.items {
+    font-weight: 500;
+    font-size: medium;
+    padding-right: 50px;
+    text-indent: 20px;
+}
+
+.parallax {
+    background-image: url("assets/background.jpg");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.nav-link {
+    color: rgb(0, 174, 255) !important;
+    font-family: "Baloo 2";
+    font-size: 18px;
+}
+
+.bar2 {
+    justify-content: flex-start;
+    padding-left: 40px;
+    font-family: "Baloo 2";
+}
+
+.text-container {
+    margin-left: 550px;
+    margin-top: 180px;
+    width: 50%;
+}
+
+.text-01 {
+    color: white;
+}
+
+.text-02 {
+    color: white;
+    font-weight: 500;
+    background-color: rgb(255, 142, 49);
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: max-content;
+}
+
+.text-03 {
+    color: white;
+    font-weight: 300;
+    font-family: 'Baloo 2';
+}
+
+.section-2 {
+    background-color: #3cb6fc;
+}
+
+.content {
+    position: absolute;
+    color: #f1f1f1;
+    top: 350px;
+    right: 50px;
+}
+
+.section-1 {
+    background-color: #3cb6fc;
+    font-family: "Baloo 2";
+    font-size: 22px;
+    font-weight: 400;
+    height: 300px;
+    padding-top: 60px;
+}
+
+.row-style {
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.column-1 {
+    text-align: end;
+    padding-right: 70px;
+}
+
+.column-2 {
+    text-align: start;
+    padding-left: 70px;
+}
+
+.column-3-1 {
+    text-align: end;
+    padding-right: 10px;
+}
+
+.column-3-2 {
+    text-align: start;
+    padding-left: 10px;
+}
+
+.btn {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Baloo 2";
+    margin: 10px 2px;
+    width: 150px;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: rgb(255, 142, 49);
+    color: white;
+}
+
+.section-3 {
+    background-color: rgb(255, 142, 49);
+    font-family: "Baloo 2";
+    font-size: 22px;
+    font-weight: 400;
+    height: 300px;
+    padding-top: 60px;
+}
+
+.section-3-btn {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Baloo 2";
+    margin: 10px 2px;
+    width: 220px;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+
+.section-3-btn:hover {
+    background-color: #3cb6fc;
+    color: white;
+}
+
+.section-2 {
+    background-color: #ffffff;
+    height: 1400px;
+    padding-top: 70px;
+    justify-content: center;
+}
+
+.row-section-2 {
+    width: 1100px;
+    text-align: center;
+}
+
+.card {
+    border-width: 0px;
+    box-shadow: 0px 0px 6px 4px rgba(46, 46, 46, 0.1);
+    transition: 0.1s;
+}
+
+.card:hover {
+    border-width: 2px;
+    border-color: #3cb6fc;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title {
+    color: rgb(255, 142, 49);
+    font-size: 36px;
+    font-weight: 500;
+    padding-left: 190px;
+    padding-bottom: 40px;
+    ;
+}
+
+.status {
+    position: absolute;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 22px;
+    padding: 0px 5px 0px 5px;
+    background-color: rgb(255, 142, 49);
+    width: fit-content;
+    color: white;
+    font-size: 14px;
+}
+
+.status-sale {
+    position: absolute;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 22px;
+    padding: 0px 5px 0px 5px;
+    background-color: #3cb6fc;
+    width: fit-content;
+    color: white;
+    font-size: 14px;
+}
+
+.card-title {
+    font-size: 24px;
+    color: rgb(255, 152, 68);
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.card-text {
+    color: rgb(29, 29, 29);
+    padding-top: 10px;
+}
+
+.off-price {
+    color: rgb(255, 142, 49);
+    padding-left: 10px;
+}
+
+.image-style {
+    height: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table {
+    margin-top: 100px;
+    width: 1080px;
+}
+
+.people {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.job {
+    font-weight: 500;
+    font-size: 22px;
+    padding-top: 20pt !important;
+}
+
+.td {
+    width: 170px;
+}
+
+.posted {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(145, 145, 145);
+}
+
+.price {
+    font-weight: 500;
+}
+
+.td2 {
+    width: 650px;
+}
+
+.td3 {
+    width: 200px;
+}
+
+.td4 {
+    width: 166px;
+}
+
+.btn-bid {
+    background-color: rgb(255, 142, 49);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 16px 16px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Baloo 2";
+    margin: 5px 2px;
+    width: 150px;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+
+.btn-bid:hover {
+    background-color: rgb(255, 183, 124);
+    color: rgb(255, 255, 255);
+}
+
+.section-4 {
+    background-color: #ffffff;
+    height: 600px;
+    padding-top: 70px;
+    justify-content: center;
+}
+
+.howitworks {
+    height: 230px;
+}
+
+.font {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer {
+    background-color: #202020;
+    height: 270px;
+    justify-content: center;
+}
+
+.row-footer {
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.FindFindingFound {
+    height: 90px;
+}
+
+.about {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+    font-family: "Baloo 2";
+    line-height: 24px;
+}
+
+.footer-text {
+    padding-top: 25px;
+    color: #3cb6fc;
+    font-family: "Baloo 2";
+    padding-bottom: 10px;
+}
+
+.footer-sub-text {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Baloo 2";
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 6px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+.c-1 {
+    width: 500px;
+    padding-left: 10px;
+}
+
+.c-2 {
+    width: 300px;
+}
+
+.c-3 {
+    width: 300px;
+}
+
+
+}
+
+/* If the screen size is 300px wide or less */
+@media screen and (max-width: 375px) {   
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        padding-left: 10px;
+    }
+
+    .brand-img {
+        height: 50px;
+    }
+    
+    .bg-light {
+        background-color: white !important;
+    }
+
+    .bar2 {
+        justify-content: flex-start;
+        font-family: "Baloo 2";
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar-toggler-icon {
+        width: 15px;
+        height: 15px;
+    }  
+    
+    .tab {
+        overflow: hidden;
+        background-color: #3cb6fc;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .tablinks {
+        font-size: 12px !important;
+        font-family: "Baloo 2";
+    }
+    
+    .tab button {
+        color: white;
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 8px 12px;
+        transition: 0.3s;
+    }
+    
+    .tab button:hover {
+        background-color: rgb(255, 142, 49);
+    }
+    
+    .tab button.active {
+        background-color: rgb(255, 142, 49);
+    }
+    
+    .items {
+        font-weight: 500;
+        font-size: medium;
+        padding-right: 50px;
+        text-indent: 20px;
+    }
+    
+    .parallax {
+        background-image: url("assets/background.jpg");
+        background-attachment: fixed;
+        min-height: 400px;
+        background-position:center;
+        background-size: cover;
+    }
+    
+    .nav-link {
+        color: rgb(0, 174, 255) !important;
+        font-family: "Baloo 2";
+        font-size: 18px;
+    }
+    
+    .text-container {
+        margin-left: 550px;
+        margin-top: 180px;
+        width: 50%;
+    }
+    
+    .text-01 {
+        color: white;
+        font-size: 18px;
+    }
+    
+    .text-02 {
+        color: white;
+        font-weight: 500;
+        background-color: rgb(255, 142, 49);
+        width: 100%;
+        font-size: 28px;
+    }
+    
+    .text-03 {
+        color: white;
+        font-weight: 300;
+        font-family: 'Baloo 2';
+        font-size: 14px;
+    }
+    
+    .section-2 {
+        background-color: #3cb6fc;
+    }
+    
+    .content {
+        position: absolute;
+        color: #f1f1f1;
+        top: 200px;
+        left: 5px;
+        right: 5px;
+        text-align: center;
+    }
+    
+    .section-1 {
+        background-color: #3cb6fc;
+        font-family: "Baloo 2";
+        font-size: 10.5px;
+        font-weight: 400;
+        height: 200px;
+        padding-top: 30px;
+    }
+    
+    .row-style {
+        text-align: center;
+        color: white;
+        width: 100%;
+        padding-left: 20px;
+    }
+    
+    .column-1 {
+        text-align: end;
+        padding-right: 8px;
+    }
+    
+    .column-2 {
+        text-align: start;
+        padding-left: 8px;
+    }
+    
+    .btn {
+        background-color: #ddd;
+        border: none;
+        color: black;
+        padding: 8px 16px;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 500;
+        font-family: "Baloo 2";
+        margin: 10px 2px;
+        width: 90px;
+        transition: 0.4s;
+        border-radius: 4px;
+    }
+    
+    .btn:hover {
+        background-color: rgb(255, 142, 49);
+        color: white;
+    }
+    
+    .section-3 {
+        background-color: rgb(255, 142, 49);
+        font-family: "Baloo 2";
+        font-size: 10px;
+        font-weight: 400;
+        height: 230px;
+        padding-top: 20px;
+    }
+    
+    .section-3-btn {
+        background-color: #ddd;
+        border: none;
+        color: black;
+        padding: 8px 8px;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 500;
+        font-family: "Baloo 2";
+        margin: 10px 2px;
+        width: 110px;
+        transition: 0.4s;
+        border-radius: 4px;
+    }
+    
+    .section-3-btn:hover {
+        background-color: #3cb6fc;
+        color: white;
+    }
+    
+    .section-2 {
+        background-color: #ffffff;
+        height: 1100px;
+        padding-top: 70px;
+        justify-content: center;
+    }
+    
+    .row-section-2 {
+        width: 800px;
+        text-align: center;
+    }
+    
+    .card {
+        border-width: 0px;
+        box-shadow: 0px 0px 6px 4px rgba(46, 46, 46, 0.1);
+        transition: 0.1s;
+    }
+    
+    .card:hover {
+        border-width: 2px;
+        border-color: #3cb6fc;
+    }
+    
+    .products {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .title {
+        color: rgb(255, 142, 49);
+        padding-left: 10px;
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+    
+    .status {
+        position: absolute;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 16px;
+        padding: 0px 5px 0px 5px;
+        background-color: rgb(255, 142, 49);
+        width: fit-content;
+        color: white;
+        font-size: 10px;
+    }
+    
+    .status-sale {
+        position: absolute;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 16px;
+        padding: 0px 5px 0px 5px;
+        background-color: #3cb6fc;
+        width: fit-content;
+        color: white;
+        font-size: 10px;
+    }
+    
+    .card-title {
+        font-size: 18px;
+        color: rgb(255, 152, 68);
+        font-weight: 400;
+        padding-top: 5px;
+    }
+    
+    .card-text {
+        color: rgb(29, 29, 29);
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    
+    .off-price {
+        color: rgb(255, 142, 49);
+        padding-left: 9px;
+    }
+    
+    .image-style {
+        height: 60px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .table {
+        margin-top: 30px;
+        width: 320px;
+    }
+    
+    .people {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .job {
+        font-weight: 500;
+        font-size: 11px;
+        padding-top: 10px !important;
+    }
+    
+    .td {
+        width: 30px;
+    }
+    
+    .posted {
+        font-weight: 400;
+        font-size: 8px;
+        color: rgb(104, 104, 104);
+    }
+    
+    .price {
+        font-weight: 500;
+        font-size: 9px;
+    }
+    
+    .td2 {
+        width: 130px;
+    }
+    
+    .td3 {
+        width: 40px;
+        text-align: center;
+    }
+    
+    .td4 {
+        width: 40px;
+    }
+    
+    .btn-bid {
+        background-color: rgb(255, 142, 49);
+        border: none;
+        color: rgb(255, 255, 255);
+        padding: 6px 2px;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: "Baloo 2";
+        margin: 5px 2px;
+        width: 50px;
+        transition: 0.4s;
+        border-radius: 4px;
+    }
+    
+    .btn-bid:hover {
+        background-color: rgb(255, 183, 124);
+        color: rgb(255, 255, 255);
+    }
+    
+    .section-4 {
+        background-color: #ffffff;
+        height: 300px;
+        padding-top: 40px;
+        justify-content: center;
+    }
+    
+    .howitworks {
+        height: 75px;
+    }
+    
+    .font {
+        font-size: 9px;
+        font-weight: 500;
+    }
+    
+    .footer {
+        background-color: #202020;
+        height: 200px;
+        justify-content: center;
+    }
+    
+    .row-footer {
+        color: white;
+        width: 100%;
+        padding-top: 10px;
+    }
+    
+    .FindFindingFound {
+        height: 35px;
+    }
+    
+    .about {
+        font-size: 8px;
+        font-weight: 300;
+        margin-left: 10px;
+        font-family: "Baloo 2";
+        line-height: 12px;
+    }
+    
+    .footer-text {
+        padding-top: 10px;
+        color: #3cb6fc;
+        font-family: "Baloo 2";
+        padding-bottom: 2px;
+        font-size: 9px;
+    }
+    
+    .footer-sub-text {
+        font-size: 8px;
+        font-weight: 400;
+        font-family: "Baloo 2";
+    }
+    
+    .fa {
+        padding: 8px;
+        font-size: 12px;
+        text-align: center;
+        text-decoration: none;
+        margin: 0px 2px;
+        border-radius: 50%;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    
+    .fa-youtube {
+        background: #bb0000;
+        color: white;
+    }
+    
+    .fa-pinterest {
+        background: #cb2027;
+        color: white;
+    }
+    
+    .c-1 {
+        width: 150px;
+        padding-left: 10px;
+        height: 80px;
+    }
+    
+    .c-2 {
+        width: 75px;
+        height: 50px;
+    }
+
+    .c-3 {
+        width: 200px;
+    }
+
+    .row {
+        width: 100%;
+    }
+}
+
+/* If the screen size is 300px wide or less */
+@media screen and (max-width: 320px) {   
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        padding-left: 10px;
+    }
+
+    .brand-img {
+        height: 50px;
+    }
+    
+    .bg-light {
+        background-color: white !important;
+    }
+
+    .bar2 {
+        justify-content: flex-start;
+        font-family: "Baloo 2";
+    }
+
+    .navbar-toggler {
+        margin-right: 20px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .navbar-toggler-icon {
+        width: 15px;
+        height: 15px;
+    }  
+    
+    .tab {
+        overflow: hidden;
+        background-color: #3cb6fc;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .tablinks {
+        font-size: 12px !important;
+        font-family: "Baloo 2";
+    }
+    
+    .tab button {
+        color: white;
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 8px 12px;
+        transition: 0.3s;
+    }
+    
+    .tab button:hover {
+        background-color: rgb(255, 142, 49);
+    }
+    
+    .tab button.active {
+        background-color: rgb(255, 142, 49);
+    }
+    
+    .items {
+        font-weight: 500;
+        font-size: medium;
+        padding-right: 50px;
+        text-indent: 20px;
+    }
+    
+    .parallax {
+        background-image: url("assets/background.jpg");
+        background-attachment: fixed;
+        min-height: 400px;
+        background-position:center;
+        background-size: cover;
+    }
+    
+    .nav-link {
+        color: rgb(0, 174, 255) !important;
+        font-family: "Baloo 2";
+        font-size: 18px;
+    }
+    
+    .text-container {
+        margin-left: 550px;
+        margin-top: 180px;
+        width: 50%;
+    }
+    
+    .text-01 {
+        color: white;
+        font-size: 18px;
+    }
+    
+    .text-02 {
+        color: white;
+        font-weight: 500;
+        background-color: rgb(255, 142, 49);
+        width: 100%;
+        font-size: 28px;
+    }
+    
+    .text-03 {
+        color: white;
+        font-weight: 300;
+        font-family: 'Baloo 2';
+        font-size: 14px;
+    }
+    
+    .section-2 {
+        background-color: #3cb6fc;
+    }
+    
+    .content {
+        position: absolute;
+        color: #f1f1f1;
+        top: 200px;
+        left: 5px;
+        right: 5px;
+        text-align: center;
+    }
+    
+    .section-1 {
+        background-color: #3cb6fc;
+        font-family: "Baloo 2";
+        font-size: 10.5px;
+        font-weight: 400;
+        height: 200px;
+        padding-top: 30px;
+    }
+    
+    .row-style {
+        text-align: center;
+        color: white;
+        width: 100%;
+        padding-left: 20px;
+    }
+    
+    .column-1 {
+        text-align: end;
+        padding-right: 8px;
+    }
+    
+    .column-2 {
+        text-align: start;
+        padding-left: 8px;
+    }
+    
+    .btn {
+        background-color: #ddd;
+        border: none;
+        color: black;
+        padding: 8px 16px;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 500;
+        font-family: "Baloo 2";
+        margin: 10px 2px;
+        width: 90px;
+        transition: 0.4s;
+        border-radius: 4px;
+    }
+    
+    .btn:hover {
+        background-color: rgb(255, 142, 49);
+        color: white;
+    }
+    
+    .section-3 {
+        background-color: rgb(255, 142, 49);
+        font-family: "Baloo 2";
+        font-size: 10px;
+        font-weight: 400;
+        height: 230px;
+        padding-top: 20px;
+    }
+    
+    .section-3-btn {
+        background-color: #ddd;
+        border: none;
+        color: black;
+        padding: 8px 8px;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 500;
+        font-family: "Baloo 2";
+        margin: 10px 2px;
+        width: 110px;
+        transition: 0.4s;
+        border-radius: 4px;
+    }
+    
+    .section-3-btn:hover {
+        background-color: #3cb6fc;
+        color: white;
+    }
+    
+    .section-2 {
+        background-color: #ffffff;
+        height: 1050px;
+        padding-top: 70px;
+        justify-content: center;
+    }
+    
+    .row-section-2 {
+        width: 800px;
+        text-align: center;
+    }
+    
+    .card {
+        border-width: 0px;
+        box-shadow: 0px 0px 6px 4px rgba(46, 46, 46, 0.1);
+        transition: 0.1s;
+    }
+    
+    .card:hover {
+        border-width: 2px;
+        border-color: #3cb6fc;
+    }
+    
+    .products {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .title {
+        color: rgb(255, 142, 49);
+        padding-left: 10px;
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+    
+    .status {
+        position: absolute;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 16px;
+        padding: 0px 5px 0px 5px;
+        background-color: rgb(255, 142, 49);
+        width: fit-content;
+        color: white;
+        font-size: 10px;
+    }
+    
+    .status-sale {
+        position: absolute;
+        text-align: left;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 16px;
+        padding: 0px 5px 0px 5px;
+        background-color: #3cb6fc;
+        width: fit-content;
+        color: white;
+        font-size: 10px;
+    }
+    
+    .card-title {
+        font-size: 18px;
+        color: rgb(255, 152, 68);
+        font-weight: 400;
+        padding-top: 5px;
+    }
+    
+    .card-text {
+        color: rgb(29, 29, 29);
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    
+    .off-price {
+        color: rgb(255, 142, 49);
+        padding-left: 9px;
+    }
+    
+    .image-style {
+        height: 50px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .table {
+        margin-top: 50px;
+        width: 290px;
+    }
+    
+    .people {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .job {
+        font-weight: 500;
+        font-size: 11px;
+        padding-top: 10px !important;
+    }
+    
+    .td {
+        width: 30px;
+    }
+    
+    .posted {
+        font-weight: 400;
+        font-size: 8px;
+        color: rgb(104, 104, 104);
+    }
+    
+    .price {
+        font-weight: 500;
+        font-size: 9px;
+    }
+    
+    .td2 {
+        width: 130px;
+    }
+    
+    .td3 {
+        width: 40px;
+        text-align: center;
+    }
+    
+    .td4 {
+        width: 40px;
+    }
+    
+    .btn-bid {
+        background-color: rgb(255, 142, 49);
+        border: none;
+        color: rgb(255, 255, 255);
+        padding: 6px 6px;
+        text-align: center;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: "Baloo 2";
+        margin: 5px 2px;
+        width: 35px;
+        transition: 0.4s;
+        border-radius: 4px;
+    }
+    
+    .btn-bid:hover {
+        background-color: rgb(255, 183, 124);
+        color: rgb(255, 255, 255);
+    }
+    
+    .section-4 {
+        background-color: #ffffff;
+        height: 300px;
+        padding-top: 40px;
+        justify-content: center;
+    }
+    
+    .howitworks {
+        height: 60px;
+    }
+    
+    .font {
+        font-size: 9px;
+        font-weight: 500;
+    }
+    
+    .footer {
+        background-color: #202020;
+        height: 200px;
+        justify-content: center;
+    }
+    
+    .row-footer {
+        color: white;
+        width: 100%;
+        padding-top: 10px;
+    }
+    
+    .FindFindingFound {
+        height: 35px;
+    }
+    
+    .about {
+        font-size: 8px;
+        font-weight: 300;
+        margin-left: 10px;
+        font-family: "Baloo 2";
+        line-height: 12px;
+    }
+    
+    .footer-text {
+        padding-top: 10px;
+        color: #3cb6fc;
+        font-family: "Baloo 2";
+        padding-bottom: 2px;
+        font-size: 9px;
+    }
+    
+    .footer-sub-text {
+        font-size: 8px;
+        font-weight: 400;
+        font-family: "Baloo 2";
+    }
+    
+    .fa {
+        padding: 8px;
+        font-size: 12px;
+        text-align: center;
+        text-decoration: none;
+        margin: 0px 2px;
+        border-radius: 50%;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    
+    .fa-youtube {
+        background: #bb0000;
+        color: white;
+    }
+    
+    .fa-pinterest {
+        background: #cb2027;
+        color: white;
+    }
+    
+    .c-1 {
+        width: 150px;
+        padding-left: 10px;
+        height: 80px;
+    }
+    
+    .c-2 {
+        width: 75px;
+        height: 50px;
+    }
+
+    .c-3 {
+        width: 200px;
+    }
+
+    .row {
+        width: 100%;
+    }
+}
+
